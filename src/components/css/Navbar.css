@@ -225,4 +225,8 @@ hero section
   .slick-next {
     right: 55px !important;
   }
+  .rightArrow {
+    position: relative;
+    left: -47px;
+  }
 }

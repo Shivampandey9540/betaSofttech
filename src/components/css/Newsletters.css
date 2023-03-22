@@ -123,4 +123,10 @@
   .News {
     width: 367px;
   }
+  .NewsLetterHeading > div > h1 {
+    font-size: 35px;
+  }
+  .Slider_holder {
+    left: 40px;
+  }
 }

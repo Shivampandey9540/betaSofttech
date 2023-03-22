@@ -195,7 +195,11 @@ function Navbar() {
                 <img src={HeroImg} className="HeroImg" alt="HeroImg" />
               </div>
               <div>
-                <img src={rightbutton} alt="rightarrow" />
+                <img
+                  src={rightbutton}
+                  className="rightArrow"
+                  alt="rightarrow"
+                />
               </div>
             </div>
           </div>
