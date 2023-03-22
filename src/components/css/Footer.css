@@ -1,0 +1,80 @@
+.Footer_upper_Section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.FooterEmail {
+  width: 30px;
+}
+.EmailInputSection {
+  width: 30%;
+}
+.ImageInput {
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  border-radius: 29px;
+  padding-left: 30px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.EmilInputSection {
+  width: 28%;
+}
+.Email_Footer_input {
+  width: 79%;
+  border: none;
+  height: 50px;
+}
+
+input {
+  color: black;
+  outline: none;
+}
+.EmailHolder {
+  width: 100%;
+}
+.EmailButton {
+  border: none;
+  height: 100%;
+  font-size: 23px;
+  width: 100%;
+  background-color: transparent;
+}
+.EmailSendButton {
+  width: 106px;
+  height: 59px;
+  background-color: #da0a2c;
+}
+.GetAircat > h2 {
+  font-size: 38px;
+}
+
+.followLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.Footer_middle_Section {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.Contactinfo {
+  display: grid;
+  padding-top: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  justify-items: center;
+}
+.lowerfooter {
+  width: 70%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.Footer_middle_images > img {
+  width: 50px;
+}

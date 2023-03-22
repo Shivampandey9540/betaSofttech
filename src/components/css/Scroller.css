@@ -1,0 +1,156 @@
+.Slider_section {
+  padding-top: 100px;
+  background-color: black;
+}
+.Slider_Partion_for_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("/src/img/backgroundgrid.png"); */
+}
+.backgroundSetup {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("/src/img/backgroundgrid.png");
+}
+.item_holder {
+  background: white;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  height: 347px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Slider_uper_heading > div > h1 {
+  font-size: 50px;
+}
+.Slider_uper_heading > div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Slider_uper_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Slider_Name > h4 {
+  color: red;
+}
+.SliderImages {
+  width: 180px;
+}
+.Slider_Partion_for_img > div {
+  width: 80%;
+  margin-left: 100px;
+}
+.RightarrowSlider {
+  position: relative;
+  right: 74px;
+}
+
+.leftarrowSlider {
+  position: relative;
+  right: 68px;
+}
+.slick-next {
+  right: 3px !important;
+}
+.slick-prev {
+  left: -52px !important;
+}
+.slick-list {
+  padding-left: 25px !important;
+}
+.slick-prev::before {
+  content: none !important;
+}
+.slick-next::before {
+  content: none !important;
+}
+.ServicesProvider {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.Service_holder {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  width: 327px;
+}
+.Redline {
+  height: 2px;
+  width: 15%;
+  background-color: #da0a2c;
+}
+
+.AboutSection > div {
+  padding: 145px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AboutAirCat {
+  display: flex;
+  width: 61%;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.AboutHolderSection {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.AboutholderSection > h1 {
+  font-size: 50px;
+}
+.AboutHolderSection > p {
+  color: #ffffffa6 !important;
+}
+.AboutHolderSection > h1 {
+  font-size: 51px;
+}
+
+.ReadMeButton > button {
+  font-size: 23px;
+  width: 167px;
+  height: 58px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.ReadMeButton {
+  border-radius: 10px;
+  background-color: #da0a2c;
+}
+
+.whyChoose_Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  justify-content: space-around;
+}
+.Choose_heading > div > h3,
+.AboutAirCat > div > p {
+  padding: 10px;
+  color: #da0a2c;
+}
+
+.ServicesProvided {
+  gap: 31px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
