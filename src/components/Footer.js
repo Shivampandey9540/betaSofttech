@@ -121,19 +121,19 @@ function Footer() {
                   </div>
                   <div className="FooterLinksoption">
                     <ul>
-                      <li lassName="Linksclick">
+                      <li className="Linksclick">
                         <a href="/"> Home</a>
                       </li>
-                      <li lassName="Linksclick">
+                      <li className="Linksclick">
                         <a href="/">About Us</a>
                       </li>
-                      <li lassName="Linksclick">
+                      <li className="Linksclick">
                         <a href="/">Products</a>
                       </li>
-                      <li lassName="Linksclick">
+                      <li className="Linksclick">
                         <a href="/">Services</a>
                       </li>
-                      <li lassName="Linksclick">
+                      <li className="Linksclick">
                         <a href="/">Contact us</a>
                       </li>
                     </ul>
@@ -141,24 +141,24 @@ function Footer() {
                 </div>
                 <div className="QuickLinks">
                   <div className="FooterLinksHeading">
-                    <h2>Quick Links</h2>
+                    <h2>Useful Links</h2>
                   </div>
                   <div className="FooterLinksoption">
                     <ul>
                       <li className="Linksclick">
-                        <a href="/"> Home</a>
+                        <a href="/">Warranty</a>
                       </li>
-                      <li lassName="Linksclick">
-                        <a href="/">About Us</a>
+                      <li className="Linksclick">
+                        <a href="/">AIRCAT Ports List</a>
                       </li>
-                      <li lassName="Linksclick">
-                        <a href="/">Products</a>
+                      <li className="Linksclick">
+                        <a href="/">Service Centers</a>
                       </li>
-                      <li lassName="Linksclick">
-                        <a href="/">Services</a>
+                      <li className="Linksclick">
+                        <a href="/">Product Registration</a>
                       </li>
-                      <li lassName="Linksclick">
-                        <a href="/">Contact us</a>
+                      <li className="Linksclick">
+                        <a href="/">Terms and Conditions</a>
                       </li>
                     </ul>
                   </div>

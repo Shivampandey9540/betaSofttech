@@ -78,3 +78,61 @@ input {
 .Footer_middle_images > img {
   width: 50px;
 }
+
+.Footer_lower_Section {
+  display: flex;
+  padding: 80px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.FooterContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.FootermiddleLink {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.QuickLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.FooterLinksoption > ul {
+  /* list-style-image: url("../../img/footerarrow.png"); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 13px;
+}
+
+.FooterLinksoption > ul > li::marker {
+  background-size: 30px;
+  /* content: &RightArrowBar; */
+}
+.Linksclick {
+  list-style-image: url("../../img/footarrow.png");
+}
+.FooterLinksoption {
+  display: flex;
+  justify-content: center;
+}
+.FooterLinksHeading > h2::before {
+  content: "|  ";
+  color: #da0a2c;
+}
+.CatalogSection {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.CatalogHeading > h2::before {
+  content: "|  ";
+  color: #da0a2c;
+}
