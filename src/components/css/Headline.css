@@ -26,7 +26,7 @@
 }
 .left_Section > div > h1,
 .uperSlogan > h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 .HeadlinesSection {
   display: flex;
@@ -58,4 +58,13 @@
   height: 78px;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1700px) {
+  .left_Section > div > h1 {
+    font-size: 40px;
+  }
+  .uperSlogan > h1 {
+    font-size: 35px;
+  }
 }

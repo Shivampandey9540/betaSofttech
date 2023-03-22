@@ -6,6 +6,7 @@ import Poster from "./components/Poster";
 import Newsletters from "./components/Newsletters";
 import Footer from "./components/Footer";
 import Headlines from "./components/Headlines";
+import Warranty from "./components/Warranty";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -16,7 +17,9 @@ function App() {
       <Scroller />
       <Poster />
       <Newsletters />
+      <Warranty />
       <Headlines />
+
       <Footer />
     </div>
   );

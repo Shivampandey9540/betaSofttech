@@ -149,6 +149,7 @@ hero section
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 189px;
 }
 .right_Section_Hero {
   gap: 27px;
@@ -209,4 +210,19 @@ hero section
   height: 2px;
   width: 99vw;
   background-color: #da0a2c;
+}
+
+@media only Screen and (max-width: 1500px) {
+  .Navigation_holder {
+    display: none;
+  }
+  .Slogan_section > div > h2 {
+    font-size: 30px;
+  }
+  .Slogan_section > div > h3 {
+    font-size: 30px;
+  }
+  .slick-next {
+    right: 55px !important;
+  }
 }

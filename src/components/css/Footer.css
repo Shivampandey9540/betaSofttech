@@ -136,3 +136,10 @@ input {
   content: "|  ";
   color: #da0a2c;
 }
+
+@media only Screen and (max-width: 1500px) {
+  .FooterContainer {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+}

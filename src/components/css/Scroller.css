@@ -154,3 +154,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+@media only screen and (max-width: 1500px) {
+  .item_holder {
+    width: 250px;
+  }
+  .AboutSection > div {
+    grid-template-columns: 1fr;
+  }
+  .AboutAirCat {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .item_holder {
+    width: 210px;
+  }
+}

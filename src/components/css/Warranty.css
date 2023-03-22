@@ -1,0 +1,47 @@
+.WarrantySection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.WarrantyHolder {
+  background-size: cover;
+  display: flex;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 0, 150, 0.3),
+      rgba(255, 0, 150, 0.3)
+    ),
+    url("../../img/man-working-on-wood.jpg");
+  justify-content: space-evenly;
+}
+.Warranty_right {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.WarrantyImg {
+  display: flex;
+}
+
+.button_holder {
+  display: flex;
+  align-items: center;
+}
+
+.LearnmoreButton {
+  width: 142px;
+  border-radius: 10px;
+  height: 51px;
+  background-color: #da0a2c;
+}
+.LearnmoreButton > button {
+  width: 100%;
+  font-size: 21px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
